@@ -31,6 +31,6 @@ function save() {
     // resets when save button is clicked
     countEl.textContent = 0;
     count = 0;
-
 }
 
+// Practice: Add a decrement button and function 
