@@ -22,3 +22,31 @@ function save() {
     counter = 0;
     countEl.textContent = counter;
 }
+
+
+let user = {     // an object
+    name: "John",  // by key "name" store value "John"
+    age: 30,
+    isAdmin: true       // by key "age" store value 30
+};
+
+// alert( user.name ); // John
+// alert( user.age );
+
+user.isAdmin = true;
+
+// alert( user.isAdmin );
+
+delete user.age;
+
+let User = {};
+
+// set
+User["likes birds"] = true;
+
+// get
+alert(User["likes birds"]); // true
+
+// delete
+delete User["likes birds"];
+  
